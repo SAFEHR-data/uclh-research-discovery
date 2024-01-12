@@ -13,7 +13,9 @@ Whilst some experience of version control with git and GitHub would be beneficia
 
 **Step 3**: [Complete the project template](#step-3-complete-the-project-template)
 
-**Step 4**: [Make a pull request](#step-4-make-a-pull-request)
+**Step 4**: [Generate the Jekyll front-matter](#step-4-generate-the-jekyll-front-matter)
+
+**Step 5**: [Make a pull request](#step-5-make-a-pull-request)
 
 ## Step 1: Upload datasets and code to a research data repository
 
@@ -86,7 +88,18 @@ The site builder only picks up files with .html or .md suffixes as extra content
 ### Quarto
 If you use Quarto to generate an html page, you will find it generates a whole folder of assets that need to be included. No problem, just include the Quarto assets folder in your project folder alongside the html file, and the relative links to those assets should still work.
 
-## Step 4: Make a pull request
+## Step 4: Generate the Jekyll front-matter
+When you've finished adding content, we need to add some metadata called front-matter to the top of your `index.md` file. The front-matter is read by the site generator and includes information about things like the project title, authors, and which extra pages to include. We have a utility script (`_utils/jekyllify.py`) which automatically generates this front-matter, which you can run through GitHub as follows:
+
+1. Select "Actions" from the top navigation menu<br> ![Actions in the top nav menu]({{'assets/images/actions_1.png' | relative_url}})
+2. If this is the first time you've run any actions in the fork, you'll see a warning message "Workflows aren't being run on this repository". Click the green button labelled "I understand my workflows, go ahead and enable them".
+3. On the following page, in a side menu titled Actions, you'll see a list of available actions. Click the one named Jekyllify projects.<br> ![Actions list]({{'assets/images/actions_3.png' | relative_url}})
+4. On this action's page, click "Run workflow" then "Run workflow" again to trigger it. After a few moments you should see a new entry appear in the table below with a yellow circle next to the workflow name.<br> ![Run workflow]({{'assets/images/actions_4.png' | relative_url}})
+5. When the workflow has run successfully, you should see a green circle with a tick replace the yellow dot. You can check `index.md` to confirm the front-matter has been generated successfully.
+
+If you update the project in future with a new title, authors, or extra content, you'll need to regenerate the front matter. To do this, edit `index.md` to remove the existing front-matter, then run the Jekyllify projects action again.
+
+## Step 5: Make a pull request
 
 To publish your project, you will need to merge your new files back into the original GitHub repository. To do this you will need to submit a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). The pull request process allows us to review submissions before they are added to ensure they comply with our standards.
 

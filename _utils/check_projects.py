@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 # Constants
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,9 +22,21 @@ def check_authors_dot_text(dir):
         raise FileNotFoundError(f"authors.txt missing from project folder {dir}")
     
 def check_index(dir):
-    """Raise exception if dir does not contain index.md or index.html"""
-    if not (dir/"index.md").exists() and not (dir/"index.html").exists():
+    """Raise exception if:
+    - dir does not contain index.md or index.html
+    - index does not contain front matter"""
+    if (dir/"index.md").exists():
+        index_file = dir/"index.md"
+    elif (dir/"index.html").exists():
+        index_file = dir/"index.html"
+    else:
         raise FileNotFoundError(f"index missing from project folder {dir}")
+    with open(index_file,"r") as index:
+        content = index.read()
+        regex = "^---\n((.|\n)*|\n)---\n"  # Matches and captures front matter content
+        front_matter = re.search(regex, content)
+        if not front_matter:
+            raise Exception(f"{index_file} missing front-matter")
     
 def run_checks(dir):
     check_authors_dot_text(dir)
