@@ -95,7 +95,29 @@ When you've finished adding content, we need to add some metadata called front-m
 2. If this is the first time you've run any actions in the fork, you'll see a warning message "Workflows aren't being run on this repository". Click the green button labelled "I understand my workflows, go ahead and enable them".
 3. On the following page, in a side menu titled Actions, you'll see a list of available actions. Click the one named Jekyllify projects.<br> ![Actions list]({{'assets/images/actions_3.png' | relative_url}})
 4. On this action's page, click "Run workflow" then "Run workflow" again to trigger it. After a few moments you should see a new entry appear in the table below with a yellow circle next to the workflow name.<br> ![Run workflow]({{'assets/images/actions_4.png' | relative_url}})
-5. When the workflow has run successfully, you should see a green circle with a tick replace the yellow dot. You can check `index.md` to confirm the front-matter has been generated successfully.
+5. When the workflow has run successfully, you should see a green circle with a tick replace the yellow dot. You can check to confirm something like this appears at the top of `index.md`:
+```
+---
+layout: project
+title: My Project
+authors:
+- Alice Mill
+- Bob Bentham
+tabs:
+- {
+  name: vphbybwh,
+  type: md,
+  source: _analysis.md,
+  label: Analysis
+  }
+- {
+  name: kqfokysy,
+  type: html,
+  source: _data.html,
+  label: Data
+  }
+---
+```
 
 If you update the project in future with a new title, authors, or extra content, you'll need to regenerate the front matter. To do this, edit `index.md` to remove the existing front-matter, then run the Jekyllify projects action again.
 
