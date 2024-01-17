@@ -1,19 +1,3 @@
----
-layout: project
-title: Uclh Mock Data
-authors:
-- Amusing Automaton
-- Frenetic Archmage
-- Combustible Squeleton
-tabs:
-- {
-  name: nvzjwkrj,
-  type: html,
-  source: _01_data.html,
-  label:  Data
-  }
----
-
 This is a simple project with mock data from UCLH archives.
 
 Created by the UCLH Biomedical Research Centre - Clinical and Research Informatics Unit (CRIU).
