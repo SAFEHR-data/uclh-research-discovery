@@ -1,5 +1,5 @@
 name: Jekyllify projects
-on:  
+on:
   workflow_dispatch:
 
 jobs:
@@ -12,13 +12,11 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+      - name: Install Python dependencies
+        run: pip install titlecase
       - name: Run jekyllify script
         run: python ./_utils/jekyllify.py
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Auto generate Jekyll front matter for projects
-
-      
-
-  
