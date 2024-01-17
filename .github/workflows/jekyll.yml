@@ -27,9 +27,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Generate Jekyll front-matter
+  jekyllify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install Python dependencies
+        run: pip install titlecase
+      - name: Run jekyllify script
+        run: python ./_utils/jekyllify.py
+      - name: Export Jekyllified _projects
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyllified-projects
+          path: ./_projects
+          retention-days: 1
+
   # Build job
   build:
     runs-on: ubuntu-latest
+    needs: jekyllify
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -42,6 +64,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      - name: Import Jekyllified _projects
+        uses: actions/download-artifact@v4
+        with:
+          name: jekyllified-projects
+          path: ./_projects
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
