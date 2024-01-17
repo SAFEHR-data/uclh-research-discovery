@@ -19,6 +19,8 @@ import re
 from string import ascii_lowercase
 from titlecase import titlecase
 
+import check_projects as checks
+
 
 # Constants
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,24 +46,27 @@ def can_process_dir(dir:Path, raise_exception:bool=False) -> bool:
     requirements, and that it has not previously been jekyllified."""
     # Is there a file called index.md?
     try:
-        with open(dir / "index.md","r") as index:
+        index_file = checks.check_index(dir)
+        with open(index_file, "r") as index:
             # If index.md already has front matter it should not be processed
             content = index.read()
             regex = "^---\n((.|\n)*|\n)---\n"  # Matches and captures front matter content
             front_matter = re.search(regex, content)
             if front_matter:
                 return False
-    except FileNotFoundError:
+    except FileNotFoundError as exc:
         if raise_exception:
-            raise FileNotFoundError(f"index.md missing from project folder {dir}")
+            raise exc
         return False
+
     # Is there a file called authors.txt?
     try:
-        with open(dir / "authors.txt","r") as index:
+        authors_file = checks.check_authors_dot_text(dir)
+        with open(authors_file, "r") as index:
             pass
-    except FileNotFoundError:
+    except FileNotFoundError as exc:
         if raise_exception:
-            raise FileNotFoundError(f"authors.txt missing from project folder {dir}")
+            raise exc
         return False
     return True
 
