@@ -32,6 +32,13 @@ def get_project_dirs()->list[Path]:
         path.stem[0] != "_"
     ]
 
+def check_authors_dot_text(dir):
+    """Raise exception if dir does not contain authors.txt"""
+    authors_file = dir/"authors.txt"
+    if not (authors_file).exists():
+        raise FileNotFoundError(f"authors.txt missing from project folder {dir}")
+    return authors_file
+
 def check_tabs(fm_yaml, index_file):
     """For each tab item check format and confirm source exists"""
     tabs = fm_yaml.get("tabs")
