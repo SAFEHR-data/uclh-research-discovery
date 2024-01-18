@@ -67,17 +67,22 @@ a {
 	padding-left: 3rem !important;
 	padding-right: 5rem !important;
 
+	a:hover {
+		color: var(--accent-colour);
+	}
+
 	.navbar-brand {
 		color: #fff;
 		font: 800 2rem Arial, Helvetica, sans-serif;
+	}
+	.navbar-brand:hover{
+		color: #fff;
 	}
 	.nav-item,
 	.nav-link {
 		color: #fff;
 	}
-	a:hover {
-		color: var(--accent-colour);
-	}
+	
 	.search-icon {
 		color: white;
 	}
@@ -100,13 +105,13 @@ a {
 		background-color: var(--secondary);
 	}
 	.btn-outline-primary {
-		color: var(--primary);
-		border-color: var(--primary);
+		color: var(--accent-colour);
+		border-color: var(--accent-colour);
 		background-color: var(--secondary);
 		&:hover {
-			color: var(--secondary);
-			border-color: var(--primary);
-			background-color: var(--primary);
+			color: #fff;
+			border-color: var(--secondary);
+			background-color: var(--accent-colour);
 		}
 	}
 }
@@ -149,3 +154,45 @@ a {
 		fill: var(--primary);
 	}
 }
+
+.badge {
+	font-size: 0.5em;
+	&.ongoing{
+		background-color: var(--accent-colour);
+	}
+	&.completed{
+		background-color: var(--primary);
+	}
+}
+
+.project-card .badge {
+	font-size: 0.75em;
+}
+
+.authors .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  left: 70px;
+//   bottom: 2em;
+//   left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.authors:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+  }

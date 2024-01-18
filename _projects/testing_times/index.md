@@ -1,18 +1,19 @@
 ---
 layout: project
 title: Testing Times
+status: ongoing
 authors:
 - Gabriel Garcia Marquez
 - John Steinbeck
 tabs:
 - {
-  name: xhvqnaie,
+  name: lotzuetn,
   type: md,
   source: _01_extra.md,
   label:  Extra
   }
 - {
-  name: hrlnufqz,
+  name: anwztsjt,
   type: html,
   source: _02_data.html,
   label:  Data

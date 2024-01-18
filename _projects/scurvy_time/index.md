@@ -1,24 +1,25 @@
 ---
 layout: project
 title: Scurvy Time
+status: ongoing
 authors:
 - Test Testerson
 - Trial Runner
 tabs:
 - {
-  name: vphbybwh,
+  name: dmomqdnd,
   type: md,
   source: _analysis.md,
   label: Analysis
   }
 - {
-  name: npuufhpv,
+  name: zdoffrva,
   type: md,
   source: _gdpr.md,
   label: Gdpr
   }
 - {
-  name: kqfokysy,
+  name: meurbgjb,
   type: html,
   source: _data.html,
   label: Data

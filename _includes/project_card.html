@@ -1,17 +1,25 @@
 <div class="col">
 	<div class="card mb-3 project-card" style="height: 18rem">
 		<div class="card-header">
-			<h5>{{project.title}}</h5>
+			<div class="row justify-content-between">
+				<div class="col-9">
+					<h5>{{project.title}}</h5>
+				</div>
+				<div class="col-3">
+					<p><span class="badge rounded-pill {{project.status}}">{{project.status}}</span></p>
+				</div>
+			</div>
 
-			<small class="text-muted">
-				{%- if project.authors -%} {%- for author in project.authors -%}
-				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-					<span class="p-author h-card" itemprop="name"
-						>{{ author }}</span
-					></span
-				>
-				{%- if forloop.last == false -%}, {%- endif -%} {%- endfor -%} {%- endif
-				-%}
+			<small class="text-muted authors">
+				{%- if project.authors -%}
+				  {% capture authors %}
+				    {%- for author in project.authors -%}
+					  {{ author }}
+				    {%- if forloop.last == false -%},{%- endif -%} 
+					{%- endfor -%} 
+				  {% endcapture %}
+				  {{authors | replace: ",", ", " | truncate:40}}<span class="tooltiptext">{{authors | replace: ",", ", "}}</span>
+				{%- endif -%}
 			</small>
 		</div>
 

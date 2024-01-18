@@ -67,6 +67,9 @@ By default the title for your project will be derived from the folder name by re
 
 If you'd like to override this, add a file called `title.txt` and write the title for your project on the first line.
 
+### status.txt
+Each project page displays the current status of the project on a label displayed next to the title. This can be one of two options: ongoing or completed, with the default being ongoing. To set the status of your project, include a file called `status.txt` containing one of these two options.
+
 ### Extra content
 If you'd like to split content across several pages, or include an embed link for your data, you can add extra content by including additional markdown or html files in your project folder. This content will appear in separate tabs across the top of the page. 
 

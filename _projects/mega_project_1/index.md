@@ -1,18 +1,19 @@
 ---
 layout: project
 title: CT-Guided Flu Surgery
+status: ongoing
 authors:
 - Anne Onamus
 - Sue Donnymous
 tabs:
 - {
-  name: ekyhlyxx,
+  name: cewrmnjb,
   type: html,
   source: _quarto_example.html,
   label: Quarto Example
   }
 - {
-  name: helqsiwe,
+  name: brfgsjgq,
   type: html,
   source: _09_data.html,
   label:  Data

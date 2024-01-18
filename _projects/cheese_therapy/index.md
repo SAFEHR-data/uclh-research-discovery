@@ -1,12 +1,13 @@
 ---
 layout: project
 title: Cheese Therapy
+status: completed
 authors:
 - Anne Onamus
 - Professor Plum
 tabs:
 - {
-  name: laaitepn,
+  name: nfdczlns,
   type: html,
   source: _data.html,
   label: Data
