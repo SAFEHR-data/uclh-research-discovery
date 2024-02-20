@@ -16,6 +16,7 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-autoprefixer", "~> 1.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,6 +33,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "jekyll-autoprefixer", "~> 1.0"
+gem "execjs", "2.7"
 
-gem "execjs", "~> 2.7"
+gem "base64", "~> 0.2.0"
+gem "bigdecimal", "~> 3.1.6"
+gem "csv", "~> 3.0"
+gem "google-protobuf", "~> 3.25.3"  # See https://stackoverflow.com/a/75036178

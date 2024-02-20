@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web:
+    image: data-science-demos:0.1
+    build:
+      context: .
+    environment:
+      - UID=1000
+      - GID=1000
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/opt/code
