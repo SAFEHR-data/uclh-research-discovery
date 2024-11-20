@@ -1,0 +1,301 @@
+pinpoint_person_id,drug_exposure_id,visit_occurrence_id,drug_concept_id,drug_type_concept_id,route_concept_id,dose_unit_source_value,route_source_value,drug_source_concept_id
+6,0,3,40707795,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: Syringe ",Oral,36816817
+33,1,64,43717778,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Oral,36816494
+55,2,51,987250,32818,4132161,"dose: mL 
+rate: *Unspecified  
+amount: mL ",Oral,21199846
+12,3,56,42479436,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Oral,35890248
+67,4,42,21139291,32818,4171047,"dose: Units 
+rate: *Unspecified  
+amount: capsule ",nebulisation,36122785
+38,5,77,40162672,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,21236850
+76,6,66,42479436,32818,4132161,"dose: mg 
+rate: mL/hr  
+amount: mL ",Intravenous,21236850
+66,7,81,41374253,32818,4142048,"dose: mg 
+rate: *Unspecified  
+amount: mL ",PEG/RIG,21255277
+60,8,78,41371286,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,36815880
+3,9,53,42708590,32818,4171047,"dose: mL 
+rate: mL/hr  
+amount: mL ",Intravenous,36121185
+70,10,27,41348915,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,36120595
+9,11,22,21049614,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,36816961
+63,12,28,44071319,32818,4186839,"dose: micrograms/hr 
+rate: mL/hr  
+amount:  ",Intravenous,21291496
+28,13,47,19014880,32818,4217202,"dose: tablet 
+rate: *Unspecified  
+amount: tablet ",Oral,21311711
+84,14,93,40244448,32818,4171047,"dose: mL 
+rate: *Unspecified  
+amount:  ",Intravenous,36123313
+53,15,62,40751804,32818,4171047,"dose: micrograms/hr 
+rate: mL/hr  
+amount: mL ",Intravenous,36816442
+24,16,75,41374253,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Oral,21235523
+15,17,10,40169893,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,21273056
+57,18,96,929889,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Oral,36815547
+43,19,61,42479436,32818,4186838,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Oral,36072451
+53,20,20,19122148,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,21274381
+42,21,41,40715131,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Oral,35889132
+1,22,53,41371286,32818,4171047,"dose: mL 
+rate: *Unspecified  
+amount: mL ",Intravenous,36815880
+32,23,56,44109972,32818,4171047,"dose: pair 
+rate: mL/hr  
+amount: pair ",Intravenous,21272929
+18,24,9,35775967,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,21199846
+11,25,75,36881159,32818,4303277,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Oral,21311171
+79,26,4,43012036,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Intravenous,21292916
+35,27,99,19019306,32818,4171047,"dose: mmol 
+rate: *Unspecified  
+amount: mL ",Intravenous,36816017
+65,28,53,36892820,32818,4171047,"dose: g 
+rate: mL/hr  
+amount: g ",Oral,36961161
+39,29,60,19098167,32818,4132161,"dose: mL 
+rate: mL/hr  
+amount: mL ",Oral,36072451
+96,30,25,40240688,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Intra-arterial,36815547
+0,31,89,44109973,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Intravenous,36122388
+62,32,58,40167216,32818,4132161,"dose: mL 
+rate: *Unspecified  
+amount: mL ",Intravenous,21274381
+86,33,28,21159108,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Oral,36816132
+11,34,87,904457,32818,4132161,"dose: tablet 
+rate: *Unspecified  
+amount: tablet ",Intravenous,21255260
+71,35,7,21149133,32818,4262099,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,36817005
+7,36,97,43291933,32818,4171047,"dose: *Unspecified 
+rate: *Unspecified  
+amount...",Intravenous,21237166
+66,37,42,41336943,32818,4171047,"dose: drop 
+rate: *Unspecified  
+amount: mL ",Oral,21236976
+64,38,21,40707795,32818,4142048,"dose: Units 
+rate: *Unspecified  
+amount: Units ",Intravenous,36815880
+79,39,72,43173224,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,36817005
+90,40,24,36892820,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,21292647
+16,41,98,42918207,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,21291496
+85,42,31,36892820,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: capsule ",Oral,21291496
+25,43,52,19014880,32818,4132161,"dose: mg 
+rate: mL/hr  
+amount: mL ",Intravenous,36815880
+61,44,78,42479436,32818,4171047,"dose: mg 
+rate: mL/hr  
+amount: mL ",Intravenous,21199983
+74,45,68,40240688,32818,4171047,"dose: g 
+rate: *Unspecified  
+amount: tablet ",Both Eyes,36919303
+63,46,10,929924,32818,4171047,"dose: mg/hr 
+rate: mL/hr  
+amount:  ",Intravenous,40692547
+98,47,14,41415630,32818,4142048,"dose: mg 
+rate: mL/hr  
+amount: mL ",Oral,36816550
+32,48,10,41369692,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,21236850
+57,49,34,40224822,32818,4171047,"dose: mg 
+rate: mL/hr  
+amount: mL ",Oral,35890835
+48,50,61,40169944,32818,4171047,"dose: *Unspecified 
+rate: *Unspecified  
+amount...",Intravenous,21198605
+49,51,83,36054909,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Subcutaneous,21218082
+73,52,85,40722342,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,40694154
+74,53,32,929889,32818,4171047,"dose: mg 
+rate: mL/hr  
+amount: mL ",Oral,21311711
+41,54,53,42479436,32818,4132161,"dose: g 
+rate: *Unspecified  
+amount: g ",Oral,21236850
+30,55,89,40240688,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Oral,21274383
+55,56,19,19098167,32818,4132161,"dose: sachet(s) 
+rate: *Unspecified  
+amount: s...",Intravenous,21291496
+15,57,59,21125875,32818,4171047,"dose: *Unspecified 
+rate: mL/hr  
+amount:  ",Intravenous,36816707
+37,58,96,36057429,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Intravenous,36817005
+83,59,71,21049614,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Oral,21291496
+64,60,91,1387453,32818,4132161,"dose: tablet 
+rate: *Unspecified  
+amount: tablet ",Subcutaneous,21180907
+71,61,25,42918207,32818,4132161,"dose: mg/hr 
+rate: mL/hr  
+amount:  ",Oral,36122388
+22,62,89,36054909,32818,4171047,"dose: drop 
+rate: *Unspecified  
+amount:  ",Intravenous,21311711
+51,63,65,19106652,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,40696132
+0,64,34,42918207,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,36815035
+99,65,86,789581,32818,4142048,"dose: mL 
+rate: mL/hr  
+amount: mL ",Oral,21311696
+61,66,60,40240688,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Intravenous,21311171
+40,67,50,35775967,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Oral,35890870
+80,68,63,40707795,32818,4132161,"dose: Units 
+rate: *Unspecified  
+amount: capsule ",Oral,21274139
+51,69,78,36890770,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount:  ",Intravenous,21236850
+84,70,14,40739137,32818,4132161,"dose: mg/hr 
+rate: mL/hr  
+amount:  ",Intravenous,21199985
+41,71,83,19004043,32818,4132161,"dose: mL 
+rate: *Unspecified  
+amount: mL ",Oral,21236850
+69,72,14,19074721,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Intravenous,36816902
+14,73,92,44097638,32818,4132161,"dose: micrograms 
+rate: *Unspecified  
+amount: ...",Intramuscular,36122736
+18,74,71,42479436,32818,4132161,"dose: mg 
+rate: mL/hr  
+amount: mL ",Subcutaneous,36816432
+79,75,54,40750949,32818,0,"dose: mg 
+rate: *Unspecified  
+amount: capsule ",Oral,36816494
+97,76,34,40224822,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,36817005
+31,77,75,44097638,32818,4142048,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,36123310
+19,78,74,40751804,32818,4171047,"dose: puff 
+rate: *Unspecified  
+amount: Act ",Oral,36817005
+69,79,39,42918207,32818,4171047,"dose: micrograms 
+rate: *Unspecified  
+amount: ...",Intravenous,21309984
+90,80,52,41374253,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: capsule ",Intravenous,21237166
+68,81,34,35776479,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: capsule ",Oromucosal,36817005
+0,82,80,40240688,32818,4303277,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Nasogastric,21199985
+68,83,28,42479436,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Intravenous,21235697
+47,84,52,739209,32818,40486069,"dose: mg 
+rate: *Unspecified  
+amount: capsule ",Oral,36123598
+10,85,46,43012036,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,21273542
+30,86,60,987250,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,36079656
+54,87,51,43683853,32818,4171047,"dose: mL 
+rate: *Unspecified  
+amount: mL ",Subcutaneous,36123183
+19,88,5,789581,32818,4171047,"dose: Units 
+rate: *Unspecified  
+amount: tablet ",Oral,21311703
+42,89,94,41374253,32818,0,"dose: mg/hr 
+rate: mL/hr  
+amount:  ",Oral,21273959
+13,90,99,40897123,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Oral,21199160
+88,91,19,40169766,32818,0,"dose: mg 
+rate: mL/hr  
+amount: mL ",Oral,40694154
+31,92,79,739207,32818,4171047,"dose: tablet 
+rate: *Unspecified  
+amount: tablet ",Oral,21311171
+59,93,79,44135078,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: mg ",Oral,21236850
+70,94,5,40244448,32818,4171047,"dose: mL/hr 
+rate: mL/hr  
+amount:  ",Subcutaneous,21237139
+35,95,97,40715131,32818,4171047,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Intravenous,21198334
+82,96,31,42479436,32818,4186839,"dose: mg 
+rate: *Unspecified  
+amount: tablet ",Intravenous,21218082
+81,97,59,43683853,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Urethral,21292647
+64,98,24,42479436,32818,4132161,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,21236850
+67,99,84,43684053,32818,0,"dose: mg 
+rate: *Unspecified  
+amount: mL ",Intravenous,36073280
