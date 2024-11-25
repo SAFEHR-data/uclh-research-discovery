@@ -2,6 +2,7 @@
 layout: project
 title: MS-PINPOINT
 status: ongoing
+tags: Multiple Sclerosis, UCL, Neuroinflammation
 authors:
   - Benjamin Ford
   - Arman Eshaghi
@@ -10,6 +11,7 @@ tabs:
 - {
   name: descriptive_data,
   source: data.html,
+  type: html,
   label: Dataset Overview
   }
 ---
