@@ -12,11 +12,6 @@ tabs:
   source: data.html,
   label: Dataset Overview
   }
-- {
-  name: Accompanying_documentation,
-  source: info.md,
-  label: Docs
-  }
 ---
 
 MS-PINPOINT is a multi-centre project developing healthcare tools to aid in the treatment of patients with Multiple Sclerosis. Based at UCL, we develop tools for segmenting MS-typical lesions in brain and spinal cord MRI, as well as tools that use electronic health record data to model how individual patients will respond to the range of treatment options available.
