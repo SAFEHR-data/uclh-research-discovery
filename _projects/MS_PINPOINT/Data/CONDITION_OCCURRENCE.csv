@@ -1,0 +1,101 @@
+pinpoint_person_id,condition_occurrence_id,visit_occurrence_id,condition_type_concept_id,condition_concept_id,condition_source_concept_id,condition_source_value,condition_status_concept_id
+37,0,18,32821,45571794,0,"Obesity, unspecified",32909
+92,1,33,32821,45571794,0,Faecal incontinence,32909
+0,2,43,32821,40443308,0,"COVID-19, virus identified",32909
+29,3,54,32821,45537929,0,"Cataract, unspecified",32909
+96,4,44,32840,45553207,0,Mental and behavioural disorders due to use of ...,32903
+44,5,55,32821,440383,0,"Obesity, unspecified",0
+92,6,4,32821,45548818,0,Old myocardial infarction,32909
+48,7,50,32821,31317,0,"Emphysema, unspecified",32909
+99,8,49,32821,315564,0,"Lymphoedema, not elsewhere classified",32909
+26,9,34,32821,45600651,0,Other specified urinary incontinence,32903
+32,10,29,32821,45571538,0,Headache,32909
+26,11,48,32821,45562106,0,"Hypothyroidism, unspecified",32909
+70,12,73,32821,45591963,0,Residual haemorrhoidal skin tags,32903
+48,13,69,32840,45605871,0,Relapsing remitting multiple sclerosis,32909
+65,14,57,32821,45575581,0,"Urinary tract infection, site not specified",32909
+62,15,11,32821,45595688,0,Sleep apnoea,32909
+39,16,39,32840,45552757,0,Multiple sclerosis,32909
+82,17,5,32821,45756119,0,"Migraine, unspecified",32903
+80,18,97,32821,45533641,0,Other and unspecified symptoms and signs involv...,32909
+17,19,62,32821,132797,0,"Anxiety disorder, unspecified",32903
+30,20,31,32840,4114161,0,Multiple sclerosis,0
+79,21,9,32821,45543454,0,Multiple sclerosis,0
+35,22,28,32821,45571794,0,"Obesity, unspecified",0
+78,23,26,32821,45562083,0,Headache,32909
+32,24,62,32821,45605715,0,Multiple sclerosis,32909
+16,25,19,32821,45552784,0,Other specified degenerative disorders of nervo...,32909
+40,26,20,32840,374919,0,Nonfamilial hypogammaglobulinaemia,32903
+13,27,3,32840,45605450,0,Multiple sclerosis,32909
+43,28,17,32821,4329728,0,Fibromyalgia,32909
+6,29,65,32840,45596308,0,"Chronic ischaemic heart disease, unspecified",0
+67,30,79,32821,45596281,0,Relapsing remitting multiple sclerosis,32909
+97,31,55,32817,45571794,0,Other specified intervertebral disc degeneration,32909
+9,32,36,32821,45571794,0,Multiple sclerosis,32909
+66,33,36,32821,45562449,0,"Anxiety disorder, unspecified",32903
+36,34,53,32817,45592414,0,Nystagmus and other irregular eye movements,32909
+58,35,98,32821,45533824,0,Delusional disorder,32909
+20,36,23,32821,45571794,0,"Asthma, unspecified",32909
+80,37,7,32821,45552429,0,Mild cognitive disorder,32892
+82,38,10,32821,45596337,0,Other chronic osteomyelitis: lower leg,32909
+52,39,94,32840,45543287,0,Optic neuritis,32909
+52,40,78,32840,45566889,0,Diplopia,0
+96,41,62,32821,45571794,0,Ménière disease,32909
+18,42,78,32821,45600610,0,Relapsing remitting multiple sclerosis,32892
+18,43,2,32821,45587258,0,Hiatal hernia,32909
+53,44,70,32821,45561952,0,Other specified urinary incontinence,32903
+67,45,37,32821,45601025,0,Multiple sclerosis,32909
+26,46,24,32840,4145049,0,Multiple sclerosis,32909
+11,47,87,32821,45591584,0,Deviated nasal septum,32909
+1,48,14,32821,45543325,0,Multiple sclerosis,32909
+99,49,64,32821,45606128,0,Unspecified haematuria,32903
+75,50,8,32821,45537945,0,Pain in limb: multiple sites,32909
+80,51,26,32821,45586161,0,Multiple sclerosis,0
+43,52,39,32821,45542849,0,"Bipolar affective disorder, unspecified",0
+8,53,71,32817,45576460,0,Faecal incontinence,0
+26,54,43,32821,45571794,0,Relapsing remitting multiple sclerosis,32909
+26,55,21,32821,45542900,0,"Osteoporosis, unspecified",32903
+44,56,13,32821,45562456,0,Multiple sclerosis,32909
+25,57,24,32821,45577525,0,Cramp and spasm,32909
+97,58,23,32821,442588,0,FINDINGS - TESTS - CARDIOLOGY TESTS - ECHOCARDI...,0
+39,59,99,32821,45571794,0,Secondary malignant neoplasm of bone and bone m...,32909
+21,60,18,32821,45571697,0,Glaucoma,32903
+3,61,76,32821,45605941,0,Dysarthria and anarthria,32903
+84,62,53,32821,4114161,0,Acute transverse myelitis in demyelinating dise...,32903
+41,63,50,32821,45592421,0,"Chronic kidney disease, unspecified",32909
+38,64,81,32821,45571739,0,Other chronic pain,32909
+14,65,59,32821,45571794,0,Multiple sclerosis,32903
+73,66,55,32821,45571758,0,Multiple sclerosis,32909
+55,67,5,32821,45568120,0,Multiple sclerosis,0
+87,68,87,32821,374919,0,Relapsing remitting multiple sclerosis,32909
+69,69,95,32821,4006971,0,Multiple sclerosis,32909
+93,70,73,32821,45533130,0,"Disease of intestine, unspecified",32909
+22,71,17,32821,45571794,0,"Developmental disorder of scholastic skills, un...",32909
+93,72,18,32821,45571794,0,"Migraine, unspecified",32909
+50,73,99,32821,45595961,0,Nontoxic single thyroid nodule,32909
+33,74,2,32821,45548502,0,Multiple sclerosis,0
+42,75,27,32840,318800,0,Myasthenia gravis,32903
+40,76,4,32821,45571794,0,"Urinary tract infection, site not specified",32909
+30,77,91,32840,45586941,0,Multiple sclerosis,32903
+69,78,22,32821,45571794,0,"Aortic aneurysm of unspecified site, without me...",32903
+29,79,43,32821,4145049,0,"Epilepsy, unspecified",0
+44,80,39,32821,45571994,0,Hypothyroidism,0
+40,81,19,32840,45587505,0,Relapsing remitting multiple sclerosis,32892
+44,82,5,32840,45587507,0,Multiple sclerosis,32909
+6,83,63,32821,45553726,0,Anxiety disorder,32909
+67,84,36,32821,45571794,0,Allergic rhinitis due to pollen,32909
+94,85,71,32840,45571794,0,Disorders of phosphorus metabolism and phosphat...,32909
+62,86,19,32817,45576211,0,Chronic obstructive pulmonary disease with acut...,0
+20,87,8,32821,45571794,0,Essential (primary) hypertension,0
+15,88,27,32840,45533641,0,FINDINGS - TESTS - CARDIOLOGY TESTS - ECHOCARDI...,32903
+71,89,50,32821,45571794,0,"Migraine, unspecified",32909
+44,90,61,32821,45542779,0,Essential (primary) hypertension,32909
+14,91,12,32821,45591553,0,Acquired absence of genital organ(s),32909
+9,92,51,32821,45557663,0,Multiple sclerosis,32903
+31,93,63,32821,45581386,0,Reflex incontinence of urine,32909
+69,94,76,32821,45548115,0,"Urinary tract infection, site not specified",0
+5,95,28,32821,45562456,0,Secondary malignant neoplasm of other specified...,32909
+54,96,62,32821,374919,0,Faecal incontinence,32909
+9,97,43,32821,45562456,0,Faecal incontinence,32909
+86,98,5,32821,45548665,0,"Endometriosis, unspecified",32909
+22,99,34,32821,374919,0,Other and unspecified atrioventricular block,32909
