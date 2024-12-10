@@ -1,0 +1,101 @@
+pinpoint_person_id,person_id,person_source_value,ethnicity_concept_id,race_concept_id,gender_concept_id,gender_source_value,gender_source_concept_id,race_source_concept_id,ethnicity_source_concept_id,race_source_value
+81,0,,0,46286810,8532,Male,0,0,0,Not Yet Asked
+94,1,,0,0,8532,Female,0,0,0,White British
+48,2,,0,46286810,8532,Female,0,0,0,White British
+9,3,,0,46286810,8507,Female,0,0,0,*Unspecified
+94,4,,0,46286810,8532,Female,0,0,0,Other White Background
+46,5,,0,46286810,8507,Female,0,0,0,*Unspecified
+86,6,,0,46286810,8507,Female,0,0,0,White British
+99,7,,0,37394011,8532,Male,0,0,0,*Unspecified
+74,8,,0,46286810,8532,Female,0,0,0,*Unspecified
+3,9,,0,46286811,8532,Male,0,0,0,White British
+68,10,,0,0,8507,Male,0,0,0,Other Asian Background
+92,11,,0,37394011,8532,Female,0,0,0,White Irish
+55,12,,0,46286810,8532,Female,0,0,0,Other Black Background
+60,13,,0,46285831,8507,Male,0,0,0,White British
+76,14,,0,37394011,8532,Male,0,0,0,White British
+93,15,,0,46285839,8532,Female,0,0,0,Not Yet Asked
+49,16,,0,46286810,8532,Female,0,0,0,Not Yet Asked
+12,17,,0,37394011,8532,Female,0,0,0,Asian Indian
+15,18,,0,46286810,8507,Female,0,0,0,*Unspecified
+92,19,,0,46286810,8532,Female,0,0,0,White British
+55,20,,0,46285839,8507,Female,0,0,0,Not Yet Asked
+43,21,,0,46286810,8532,Female,0,0,0,White British
+86,22,,0,46285839,8532,Female,0,0,0,Asian Indian
+61,23,,0,46286810,8532,Male,0,0,0,Other White Background
+13,24,,0,46285831,8532,Male,0,0,0,White British
+91,25,,0,46285835,8532,Male,0,0,0,Not Yet Asked
+50,26,,0,46285831,8532,Female,0,0,0,Other Asian Background
+22,27,,0,46286810,8507,Male,0,0,0,*Unspecified
+18,28,,0,46286810,8532,Female,0,0,0,Black Caribbean
+57,29,,0,46286810,8507,Male,0,0,0,White British
+97,30,,0,46286810,8507,Male,0,0,0,Other Ethnic Group
+35,31,,0,46286810,8532,Female,0,0,0,Asian Indian
+6,32,,0,0,8532,Male,0,0,0,White British
+22,33,,0,46286810,8532,Female,0,0,0,Other White Background
+86,34,,0,0,8532,Male,0,0,0,Other Ethnic Group
+35,35,,0,46286810,8532,Female,0,0,0,White British
+55,36,,0,37394011,8507,Male,0,0,0,White British
+7,37,,0,46286810,8532,Female,0,0,0,Other Ethnic Group
+83,38,,0,46286810,8507,Female,0,0,0,White British
+8,39,,0,46286810,8507,Male,0,0,0,*Unspecified
+9,40,,0,46285826,8532,Female,0,0,0,Asian Bangladeshi
+65,41,,0,37394011,8507,Female,0,0,0,White British
+25,42,,0,0,8532,Male,0,0,0,Black Caribbean
+47,43,,0,37394011,8532,Female,0,0,0,White British
+82,44,,0,46285826,8507,Male,0,0,0,White British
+72,45,,0,46285826,8507,Female,0,0,0,Asian Indian
+70,46,,0,0,8507,Female,0,0,0,Other Asian Background
+1,47,,0,46285831,8532,Male,0,0,0,*Unspecified
+71,48,,0,46285826,8532,Female,0,0,0,White British
+1,49,,0,46286810,8532,Female,0,0,0,White British
+67,50,,0,46285826,8507,Male,0,0,0,White British
+47,51,,0,37394011,8532,Female,0,0,0,Other White Background
+72,52,,0,46285826,8532,Female,0,0,0,White British
+32,53,,0,0,8532,Female,0,0,0,White Irish
+12,54,,0,46286810,8507,Female,0,0,0,Other White Background
+30,55,,0,46286810,8532,Female,0,0,0,White British
+61,56,,0,46285836,8507,Female,0,0,0,*Unspecified
+50,57,,0,37394011,8532,Female,0,0,0,*Unspecified
+24,58,,0,46285839,8532,Female,0,0,0,White British
+86,59,,0,46286810,8507,Female,0,0,0,*Unspecified
+54,60,,0,46285839,8532,Female,0,0,0,White British
+33,61,,0,46285826,8532,Female,0,0,0,Other White Background
+95,62,,0,46286810,8507,Male,0,0,0,White British
+52,63,,0,46286810,8507,Female,0,0,0,Other White Background
+59,64,,0,46285826,8532,Female,0,0,0,Not Yet Asked
+66,65,,0,46286810,8532,Female,0,0,0,White British
+17,66,,0,46286811,8532,Female,0,0,0,White British
+43,67,,0,37394011,8507,Female,0,0,0,*Unspecified
+53,68,,0,37394011,8532,Female,0,0,0,Other White Background
+34,69,,0,46286810,8507,Female,0,0,0,White British
+2,70,,0,46286810,8507,Female,0,0,0,White Irish
+69,71,,0,37394011,8507,Female,0,0,0,White British
+90,72,,0,0,8532,Female,0,0,0,White British
+4,73,,0,46286810,8532,Female,0,0,0,White British
+77,74,,0,46285826,8507,Female,0,0,0,White British
+44,75,,0,46286810,8507,Male,0,0,0,*Unspecified
+24,76,,0,37394011,8532,Male,0,0,0,Other Asian Background
+14,77,,0,46285826,8532,Female,0,0,0,Not Yet Asked
+27,78,,0,46286810,8532,Female,0,0,0,White British
+59,79,,0,46285826,8507,Male,0,0,0,White British
+45,80,,0,37394011,8532,Female,0,0,0,White British
+24,81,,0,46285826,8532,Male,0,0,0,White British
+9,82,,0,46286810,8532,Female,0,0,0,Other White Background
+36,83,,0,37394011,8532,Male,0,0,0,White British
+8,84,,0,0,8507,Male,0,0,0,White British
+12,85,,0,46285824,8532,Female,0,0,0,White British
+73,86,,0,46285826,8532,Female,0,0,0,Not Yet Asked
+69,87,,0,46286811,8532,Male,0,0,0,Asian Indian
+98,88,,0,46286810,8532,Male,0,0,0,*Unspecified
+44,89,,0,0,8532,Female,0,0,0,White British
+98,90,,0,46286810,8532,Female,0,0,0,Not Stated / Unknown
+32,91,,0,46285826,8532,Male,0,0,0,White British
+85,92,,0,0,8507,Female,0,0,0,Not Stated / Unknown
+43,93,,0,46286810,8507,Male,0,0,0,White British
+6,94,,0,46286810,8532,Female,0,0,0,White British
+65,95,,0,46285832,8532,Male,0,0,0,Other White Background
+72,96,,0,46285826,8532,Male,0,0,0,Other White Background
+75,97,,0,0,8532,Female,0,0,0,*Unspecified
+58,98,,0,46286810,8532,Female,0,0,0,White British
+45,99,,0,37394011,8532,Male,0,0,0,Not Stated / Unknown
